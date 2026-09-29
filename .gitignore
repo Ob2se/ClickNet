@@ -1,0 +1,55 @@
+# Unreal generated data
+/.vs/
+/Binaries/
+/DerivedDataCache/
+/Intermediate/
+/Saved/
+/Plugins/*/Binaries/
+/Plugins/*/Intermediate/
+
+# Required example third-party DLL (the rest of plugin binaries are generated)
+!/Plugins/SteamGNSPlugin/Binaries/
+/Plugins/SteamGNSPlugin/Binaries/*
+!/Plugins/SteamGNSPlugin/Binaries/ThirdParty/
+/Plugins/SteamGNSPlugin/Binaries/ThirdParty/*
+!/Plugins/SteamGNSPlugin/Binaries/ThirdParty/SteamGNSPluginLibrary/
+/Plugins/SteamGNSPlugin/Binaries/ThirdParty/SteamGNSPluginLibrary/*
+!/Plugins/SteamGNSPlugin/Binaries/ThirdParty/SteamGNSPluginLibrary/Win64/
+/Plugins/SteamGNSPlugin/Binaries/ThirdParty/SteamGNSPluginLibrary/Win64/*
+!/Plugins/SteamGNSPlugin/Binaries/ThirdParty/SteamGNSPluginLibrary/Win64/ExampleLibrary.dll
+
+# Server and tool output
+/ServerStage/x64/
+/ServerStage/clicknetserver/
+/ServerStage/OriginalBackup/
+/ServerStage/LoadTest/x64/
+/ServerStage/LoadTest/obj/
+/ServerStage/BandwidthMonitor/bin/
+/ServerStage/BandwidthMonitor/obj/
+/ServerStage/BandwidthMonitor/publish/
+/ServerStage/__pycache__/
+/ServerStage/*.exe
+/ServerStage/*.obj
+/ServerStage/*.pdb
+/ServerStage/*.csv
+/ServerStage/*-samples.json
+/ServerStage/bandwidth-live.json
+/ServerStage/bandwidth-live.csv
+/ServerStage/LoadTest/*.csv
+
+# Debug symbols for bundled third-party binaries
+/Plugins/SteamGNS/Source/ThirdParty/GameNetworkingSockets/Bin/Win64/*.pdb
+
+# Local editor files
+*.suo
+*.VC.db
+*.VC.opendb
+*.user
+/ClickNet.sln
+/ClickNet.slnx
+/Automation_ClickNet.sln
+/Automation_ClickNet.slnx
+
+# Python
+__pycache__/
+*.pyc

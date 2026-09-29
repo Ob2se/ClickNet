@@ -1,0 +1,22 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{F27D87DB-4461-3A23-3675-D2A2A4D4D81A}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "ClickNet",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		}
+	]
+}
