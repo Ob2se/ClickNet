@@ -19,7 +19,7 @@ This repository contains the Unreal project (`ClickNet.uproject`), the C++ serve
 Clone with the vcpkg submodule:
 
 ```powershell
-git clone --recurse-submodules <your-GitHub-repo-url>
+git clone --recurse-submodules https://github.com/Ob2se/ClickNet.git
 cd ClickNet
 .\vcpkg\bootstrap-vcpkg.bat
 .\vcpkg\vcpkg.exe install gamenetworkingsockets:x64-windows
